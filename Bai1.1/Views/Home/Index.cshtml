@@ -1,0 +1,14 @@
+﻿@model IEnumerable<string>
+
+<h2>Trang chủ</h2>
+
+<p>
+    Đây là trang chủ của website.
+</p>
+
+<p>
+    @foreach (var item in Model)
+    {
+    <p>@item</p>
+    }
+</p>
